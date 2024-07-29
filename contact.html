@@ -100,30 +100,34 @@
                     <h1 class="mb-4">Contáctenos</h1>
                     <!-- <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p> -->
                     <div class="bg-light p-4">
-                        <form>
+                        <form action="https://formspree.io/f/mzzprpbp" method="POST"> 
                             <div class="row g-3">
                                 <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                        <label for="name">Nombre</label>
+                                    <div class="form">
+                                        <label for="name">Nombre
+                                            <input type="text" class="form-control" id="name" placeholder="Nombre" name="nombre">
+                                        </label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                        <label for="email">Email</label>
+                                    <div class="form">
+                                        <label for="email">Email
+                                            <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+                                        </label>
                                     </div>
                                 </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                        <label for="subject">Tema</label>
+                                <div class="col-md-12">
+                                    <div class="form row">
+                                        <label for="subject">Tema
+                                            <input type="text" class="form-control" id="subject" placeholder="Tema" name="tema">
+                                        </label>
                                     </div>
                                 </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
-                                        <label for="message">Mensaje</label>
+                                <div class="col-md-12">
+                                    <div class="form row">
+                                        <label for="message">Mensaje
+                                            <textarea class="form-control" placeholder="Mensaje" id="message" style="height: 200px" name="mensaje"></textarea>
+                                        </label>
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -149,16 +153,15 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Address</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                    <div class="d-flex pt-2">
+                    <h4 class="text-light mb-4">Contacto</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Nueva Helvecia - Colonia - Uruguay</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>rstech.uruguay@gmail.com</p>
+                    <!-- <div class="d-flex pt-2">
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
+                    </div> -->
                 </div>
              <!--    <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Services</h4>
